@@ -49,4 +49,5 @@ parts:
     source: .
     stage:
       - bin/launch.sh
+      - README.md
 
