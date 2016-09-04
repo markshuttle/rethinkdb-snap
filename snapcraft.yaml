@@ -33,7 +33,7 @@ parts:
     build-packages: [
       build-essential, protobuf-compiler, python, libprotobuf-dev,
       libcurl4-openssl-dev, libboost-all-dev, libncurses5-dev,
-      wget, m4]
+      libssl-dev, wget, m4]
     organize:
       usr/local/bin: bin
     filesets:
