@@ -1,9 +1,7 @@
 # rethinkdb-snap
 
 This is an 'external' snap of RethinkDB 2.3.5, meaning it downloads the
-source and builds it. If the snap proves useful I can rework the snap as a
-PR for RethinkDB itself, enablind snaps to be published automatically to the
-edge channel in the store from Travis hooks.
+source and builds it.
 
 ## Building
 
@@ -50,3 +48,12 @@ write. The default port for the web adminiistration interface is 28080:
 RethinkDB starts on boot after the snap is installed. The launch script is
 `bin/snap-launch.sh` which is also executable as `rethinkdb.launch` after
 installation. RethinkDB itself is executable directly as `rethinkdb`.
+
+## Feedback
+
+I am `sabdfl` on Freenode, feedback to me directly or in #snappy on Freenode
+please.
+
+If the snap proves useful I can rework this as a PR for RethinkDB itself,
+enabling snaps to be published automatically to the edge channel in the
+store from Travis hooks.
