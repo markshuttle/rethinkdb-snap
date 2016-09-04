@@ -46,7 +46,7 @@ parts:
       - $libraries
   launcher:
     plugin: dump
-    source: .
+    source: launcher
     stage:
       - bin/launch.sh
       - README.md
