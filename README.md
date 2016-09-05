@@ -49,6 +49,13 @@ RethinkDB starts on boot after the snap is installed. The launch script is
 `bin/snap-launch.sh` which is also executable as `rethinkdb.launch` after
 installation. RethinkDB itself is executable directly as `rethinkdb`.
 
+Data for the instances managed by the snap service is stored in:
+
+```
+  /var/snap/rethinkdb/common/data/<instance>/
+```
+
+
 ## Feedback
 
 I am `sabdfl` on Freenode, feedback to me directly or in #snappy on Freenode
